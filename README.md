@@ -13,7 +13,7 @@ Power BI – Interactive dashboard & visualization
 
 Etherscan API – Blockchain data source
 
-## WORKFLOW 
+## Workflow
 
 Extract – Collected blockchain transaction data using Etherscan API.
 
