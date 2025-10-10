@@ -1,13 +1,13 @@
-import os
-import time
-import logging
-import numpy as np
-import pandas as pd 
+import os # For interacting with your computer’s operating system — files, folders, paths, etc
+import time # For working with time and delays in your code
+import logging # for detailed Info of the status of program at each time 
+import numpy as np # For mathematical and numerical operations on large Data
+import pandas as pd # For Data Manipulation and Analysis 
 import requests # To make requests through API's
 from dotenv import load_dotenv # load's data from environment variables
 from sqlalchemy import create_engine, text #Connect to Databases
-from requests.adapters import HTTPAdapter 
-from urllib3.util.retry import Retry
+from requests.adapters import HTTPAdapter # To make HTTP requests (like GET, POST, PUT, DELETE) from Python to web servers or APIs
+from urllib3.util.retry import Retry # To automatically retry a failed web request
 
 # ------------------- Logging -------------------
 logging.basicConfig(
@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# ------------------- EVM Chains (Etherscan v2 supports chainid param) -------------------
+# -------------------------- EVM Chains (Etherscan v2 supports chainid param) -------------------
 EVM_CHAINS = {
     "Ethereum Mainnet": 1,
     "BNB Smart Chain Mainnet": 56,
@@ -342,3 +342,4 @@ if __name__ == "__main__":
     except Exception as e:
         logger.error(f"Fatal error: {str(e)}")
         raise
+
