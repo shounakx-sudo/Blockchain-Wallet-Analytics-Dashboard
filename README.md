@@ -34,8 +34,7 @@ Visualize – Designed a Power BI dashboard to analyze wallet activity.
 4) Identify top interacted wallet addresses
 
 5) Automated data flow for up-to-date insights ( used Windows Task Schedular )
-
-<img width="1177" height="660" alt="Screenshot 2025-10-04 070413" src="https://github.com/user-attachments/assets/c50757a8-eaa8-4b08-bd2e-b076dfb8731f" />
+<img width="1177" height="660" alt="Wallet_Dashboard" src="https://github.com/user-attachments/assets/9ebcba82-0604-40a1-806c-da87537324a4" />
 
 ## Key Outcome
 
